@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  --background-color: #ededf4;
+
+  --primaryColor1: #014f86;
+  --primaryColor2: #2c7da0;
+  --primaryColor3: #61a5c2;
+  --primaryColor4: #5f94a5;
+  --primaryColor5: #caf0f8;
+
+  --red: #b1061d;
+
+  --white: #fff;
+  --black: #000;
+
+  --font-style-1: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  --shadow-1: 0px 3px 7px 0px rgba(0, 0, 0, 0.75);
+  --shadow-2: 0px 7px 15px 0px rgba(0, 0, 0, 0.75);
+  --shadow-3: 0px 10px 25px -1px rgba(0, 0, 0, 0.29);
+  --shadow-4: 0px 10px 30px 5px rgba(0, 0, 0, 0.3);
+
+  --transition-1: all 0.3s ease-in-out;
+}
+
+body {
+  background: var(--background-color);
+}

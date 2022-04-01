@@ -1,0 +1,36 @@
+.inputContainer {
+  height: 70px;
+  width: 100%;
+}
+
+.inputContainer label {
+  display: block;
+  text-transform: capitalize;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--primaryColor4);
+}
+
+.inputContainer input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--primaryColor1);
+  background: rgba(59, 54, 54, 0.1);
+  padding: 5px;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primaryColor1);
+}
+
+.inputContainer input[type="file"] {
+  padding: 5px;
+  width: 250px;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  height: 30px;
+  cursor: pointer;
+}
